@@ -39,3 +39,13 @@ Password Recovery: There is none. If you lose the password, the data is gone.
 
 File Safety: Always keep a backup of critical data before encrypting.
 
+# Outlook
+
+If at any point more time is spent on this project, it will be used to:
+
+- Make use of AGE's ssh-key functionality as a default with a password-backup (e.g. for decrypting on another machine)
+- Improve fail safety / error handling, rather optimistiv right now
+- Fix password leak issue in CLI; priority was finder-integration
+- Add support for folders and make use of go-routines for concurrency
+- Tests
+
