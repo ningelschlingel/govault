@@ -1,11 +1,10 @@
 # GoVault
 
-A lightweight macOS Finder utility for quick file encryption, built with Go and the `age` encryption library.
+A lightweight macOS Finder & CLI utility for quick file encryption, built with Go and the `age` encryption library.
 
 ### 🔒 Features
 - **Native Integration:** Right-click any file to lock/unlock via macOS Quick Actions.
 - **Strong Encryption:** Uses the [age](https://github.com/FiloSottile/age) format (X25519, ChaCha20-Poly1305, and scrypt).
-- **No Notarization Needed:** Runs locally on your machine, avoiding Apple's gatekeeper headaches.
 
 ### 🚀 Installation
 
